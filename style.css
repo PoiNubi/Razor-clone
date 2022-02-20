@@ -1,0 +1,68 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background: rgb(34, 33, 33);
+} 
+
+
+
+header {
+    min-height: 6.5vh;
+    background: rgb(34, 33, 33);
+    display: flex;
+    width: 100%;
+    align-items: center;
+    margin: auto;
+    position: fixed;
+    top: 0;
+}
+
+.logo, .cart, .navlinks {
+    display: flex;
+}
+
+.logo {
+    margin-left: 20vw;
+    padding-right: 0px;
+}
+
+nav {
+    margin-left: 38px;
+
+}
+
+nav .navlinks {
+    list-style: none;
+    word-spacing: 0.5px;
+ 
+}
+
+nav .navlinks li{
+    display: inline;
+    margin-right: 45px;
+}
+
+nav .navlinks a{
+    text-decoration: none;
+    color: grey;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+.cart {
+    margin-left: 15%;
+
+}
+
+.logo img {
+    height: 31px;
+}
+
+.image1pc {
+    margin-bottom: 4px;
+    margin-top: 6.5vh;
+}
